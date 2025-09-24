@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CreativeFlow</title>
+    <meta name="description" content="Get in touch with CreativeFlow to discuss your project and discover how we can help achieve your digital goals">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">CreativeFlow</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Let's Start Something Great</h1>
+                    <p class="page-description">
+                        Ready to bring your vision to life? Get in touch and let's discuss how we can help you succeed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section" data-aos="fade-right">
+                        <h2 class="form-title">Send us a message</h2>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select id="service" name="service" class="form-select">
+                                    <option value="">Select a service</option>
+                                    <option value="branding">Brand Design</option>
+                                    <option value="web">Web Development</option>
+                                    <option value="mobile">Mobile Apps</option>
+                                    <option value="marketing">Digital Marketing</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget" class="form-label">Project Budget</label>
+                                <select id="budget" name="budget" class="form-select">
+                                    <option value="">Select budget range</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="50k+">$50,000+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Project Details *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell us about your project, goals, and any specific requirements..." required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter" class="checkbox">
+                                    <span class="checkmark"></span>
+                                    I'd like to receive updates about CreativeFlow's services and insights
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large form-submit">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading" style="display: none;">Sending...</span>
+                            </button>
+                        </form>
+                        
+                        <div class="form-success" id="form-success" style="display: none;">
+                            <div class="success-icon">✓</div>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info-section" data-aos="fade-left">
+                        <div class="contact-info-card">
+                            <h3 class="info-title">Get in Touch</h3>
+                            <p class="info-description">
+                                We're here to help bring your ideas to life. Reach out through any of these channels:
+                            </p>
+                            
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <div class="method-icon">📧</div>
+                                    <div class="method-info">
+                                        <h4>Email</h4>
+                                        <p>hello@creativeflow.com</p>
+                                        <small>We'll respond within 24 hours</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-method">
+                                    <div class="method-icon">📞</div>
+                                    <div class="method-info">
+                                        <h4>Phone</h4>
+                                        <p>+1 (555) 123-4567</p>
+                                        <small>Mon-Fri, 9AM-6PM EST</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-method">
+                                    <div class="method-icon">📍</div>
+                                    <div class="method-info">
+                                        <h4>Office</h4>
+                                        <p>123 Design Street<br>Creative City, CC 12345</p>
+                                        <small>Visit by appointment only</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-method">
+                                    <div class="method-icon">💬</div>
+                                    <div class="method-info">
+                                        <h4>Social Media</h4>
+                                        <div class="social-links">
+                                            <a href="#" class="social-link">LinkedIn</a>
+                                            <a href="#" class="social-link">Twitter</a>
+                                            <a href="#" class="social-link">Instagram</a>
+                                        </div>
+                                        <small>Follow us for updates</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Section -->
+                        <div class="faq-section">
+                            <h3 class="faq-title">Frequently Asked Questions</h3>
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <button class="faq-question" data-faq="1">
+                                        How long does a typical project take?
+                                        <span class="faq-toggle">+</span>
+                                    </button>
+                                    <div class="faq-answer" id="faq-1">
+                                        <p>Project timelines vary based on scope and complexity. Simple websites typically take 4-6 weeks, while complex applications can take 3-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="faq-item">
+                                    <button class="faq-question" data-faq="2">
+                                        What's included in your pricing?
+                                        <span class="faq-toggle">+</span>
+                                    </button>
+                                    <div class="faq-answer" id="faq-2">
+                                        <p>Our pricing includes strategy, design, development, testing, and deployment. We also provide training and documentation. Ongoing support and maintenance can be arranged separately.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="faq-item">
+                                    <button class="faq-question" data-faq="3">
+                                        Do you work with small businesses?
+                                        <span class="faq-toggle">+</span>
+                                    </button>
+                                    <div class="faq-answer" id="faq-3">
+                                        <p>Absolutely! We work with businesses of all sizes, from startups to enterprise companies. We have scalable solutions and flexible pricing options to fit different budgets.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-brand">CreativeFlow</h3>
+                    <p class="footer-description">
+                        Creating digital experiences that drive results and inspire action.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <div class="contact-info">
+                        <p>hello@creativeflow.com</p>
+                        <p>+1 (555) 123-4567</p>
+                        <p>123 Design Street<br>Creative City, CC 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CreativeFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

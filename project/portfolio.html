@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CreativeFlow</title>
+    <meta name="description" content="Explore our portfolio of successful digital projects and creative solutions across various industries">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">CreativeFlow</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Our Portfolio</h1>
+                    <p class="page-description">
+                        Discover our latest projects and see how we've helped businesses achieve their digital goals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="branding web" data-aos="fade-up">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>🏢</span>
+                                    <p>TechStart Inc. brand identity and website redesign</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">TechStart Inc.</h3>
+                                    <p class="project-category">Branding & Web Development</p>
+                                    <p class="project-description">
+                                        Complete brand identity redesign and responsive website development for a growing tech startup.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">Logo Design</span>
+                                        <span class="tag">Web Development</span>
+                                        <span class="tag">React</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>🍕</span>
+                                    <p>FoodieApp - mobile food delivery application</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">FoodieApp</h3>
+                                    <p class="project-category">Mobile Development</p>
+                                    <p class="project-description">
+                                        User-friendly mobile app for food delivery with real-time tracking and seamless payment integration.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">React Native</span>
+                                        <span class="tag">UI/UX Design</span>
+                                        <span class="tag">API Integration</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="web marketing" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>🛍️</span>
+                                    <p>GrowthLab e-commerce platform and marketing strategy</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">GrowthLab</h3>
+                                    <p class="project-category">E-commerce & Marketing</p>
+                                    <p class="project-description">
+                                        Complete e-commerce solution with integrated marketing automation and analytics dashboard.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">E-commerce</span>
+                                        <span class="tag">SEO</span>
+                                        <span class="tag">Analytics</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="branding" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>🌿</span>
+                                    <p>EcoGreen sustainable brand identity design</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">EcoGreen</h3>
+                                    <p class="project-category">Brand Identity</p>
+                                    <p class="project-description">
+                                        Sustainable brand identity for an eco-friendly company, emphasizing their commitment to the environment.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">Logo Design</span>
+                                        <span class="tag">Brand Guidelines</span>
+                                        <span class="tag">Sustainability</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>📚</span>
+                                    <p>EduPlatform online learning management system</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">EduPlatform</h3>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-description">
+                                        Comprehensive learning management system with interactive courses and progress tracking.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">Vue.js</span>
+                                        <span class="tag">Node.js</span>
+                                        <span class="tag">Database</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="mobile branding" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <div class="image-placeholder portfolio-placeholder">
+                                <div class="placeholder-content">
+                                    <span>💪</span>
+                                    <p>FitTracker health and fitness mobile app</p>
+                                </div>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3 class="project-title">FitTracker</h3>
+                                    <p class="project-category">Mobile App & Branding</p>
+                                    <p class="project-description">
+                                        Health and fitness tracking app with personalized workouts and nutrition planning.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span class="tag">Flutter</span>
+                                        <span class="tag">Health API</span>
+                                        <span class="tag">UI Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Project Results</h2>
+                    <p class="section-description">
+                        The impact of our work measured in success
+                    </p>
+                </div>
+                <div class="results-grid">
+                    <div class="result-card" data-aos="fade-up">
+                        <div class="result-number">300%</div>
+                        <div class="result-label">Average Traffic Increase</div>
+                        <p class="result-description">
+                            Our web development projects see significant improvements in user engagement and traffic.
+                        </p>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="result-number">98%</div>
+                        <div class="result-label">Client Satisfaction Rate</div>
+                        <p class="result-description">
+                            Nearly all our clients are highly satisfied with the results and continue working with us.
+                        </p>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="result-number">45%</div>
+                        <div class="result-label">Conversion Rate Improvement</div>
+                        <p class="result-description">
+                            Our design and marketing strategies consistently improve conversion rates.
+                        </p>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="result-number">2M+</div>
+                        <div class="result-label">Users Reached</div>
+                        <p class="result-description">
+                            Our projects have successfully reached and engaged millions of users worldwide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Create Your Success Story?</h2>
+                    <p class="cta-description">
+                        Let's work together to bring your vision to life and achieve remarkable results.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-brand">CreativeFlow</h3>
+                    <p class="footer-description">
+                        Creating digital experiences that drive results and inspire action.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <div class="contact-info">
+                        <p>hello@creativeflow.com</p>
+                        <p>+1 (555) 123-4567</p>
+                        <p>123 Design Street<br>Creative City, CC 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CreativeFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
